@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3b94d0bb1e4b10c44b9a1f5f597464d1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317680
+  packageName: Poly Style Viking Huts - Low Poly Environment
+  packageVersion: 1.0
+  assetPath: Assets/Ilumisoft/Poly Viking Village/Shaders/Surface.shadergraph
+  uploadId: 750912

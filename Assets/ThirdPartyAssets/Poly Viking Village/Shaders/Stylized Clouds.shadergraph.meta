@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c14be09f26dafea40ae869af9a3e2d47
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317680
+  packageName: Poly Style Viking Huts - Low Poly Environment
+  packageVersion: 1.0
+  assetPath: Assets/Ilumisoft/Poly Viking Village/Shaders/Stylized Clouds.shadergraph
+  uploadId: 750912
