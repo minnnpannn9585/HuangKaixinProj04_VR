@@ -6,6 +6,7 @@ TagManager:
   tags:
   - food
   - Camera0
+  - Rock
   layers:
   - Default
   - TransparentFX
