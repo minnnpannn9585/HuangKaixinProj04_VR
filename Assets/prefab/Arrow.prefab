@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5950759313391321977}
   - component: {fileID: 3669923917037511707}
   - component: {fileID: 4257794651980982269}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -116,8 +116,7 @@ GameObject:
   - component: {fileID: 8543716189000260923}
   - component: {fileID: 7314540538715430866}
   - component: {fileID: 6105728648786906354}
-  - component: {fileID: 3680609725890614260}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,27 +188,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3680609725890614260
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4567824995288455574}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5793547470715677243
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +199,7 @@ GameObject:
   - component: {fileID: 4953234630310064179}
   - component: {fileID: 4777922349931668048}
   - component: {fileID: 1660662403310782677}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,3 +264,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   tip: {fileID: 3185902264536923707}
+  logText: {fileID: 0}

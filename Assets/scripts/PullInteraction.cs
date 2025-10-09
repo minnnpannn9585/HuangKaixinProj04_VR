@@ -36,8 +36,8 @@ public class PullInteraction : XRBaseInteractable
         PullActionReleased?.Invoke(pullAmount);
         pullingInteractor = null;
         pullAmount = 0.0f;
-        notch.transform.localPosition = new Vector3(notch.transform.localPosition.x,
-            notch.transform.localPosition.y, 0);
+        notch.transform.localPosition = new Vector3(0,
+            notch.transform.localPosition.y, notch.transform.localPosition.z);
         UpdateString();
     }
 
@@ -69,10 +69,10 @@ public class PullInteraction : XRBaseInteractable
 
     void UpdateString()
     {
-        Vector3 linePosition = Vector3.forward * 
-            Mathf.Lerp(start.transform.localPosition.z, end.transform.localPosition.z, pullAmount);
-        notch.transform.localPosition = new Vector3(notch.transform.localPosition.x + 0.19f,
-            notch.transform.localPosition.y, linePosition.z);
+        Vector3 linePosition = Vector3.right * 
+            Mathf.Lerp(start.transform.localPosition.x, end.transform.localPosition.x, pullAmount);
+        notch.transform.localPosition = new Vector3(linePosition.x + 0.19f,
+            notch.transform.localPosition.y, notch.transform.localPosition.z);
         _lineRenderer.SetPosition(1, linePosition);
     }
 }

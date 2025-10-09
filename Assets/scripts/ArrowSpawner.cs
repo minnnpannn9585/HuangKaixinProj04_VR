@@ -16,9 +16,10 @@ public class ArrowSpawner : MonoBehaviour
     {
         _bow = GetComponent<XRGrabInteractable>();
         PullInteraction.PullActionReleased += NotchEmpty;
+        
     }
 
-    void onDestroy()
+    void OnDestroy()
     {
         PullInteraction.PullActionReleased -= NotchEmpty;
     }

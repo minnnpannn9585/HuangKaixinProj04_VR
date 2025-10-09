@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 4919476713346384818}
   m_Layer: 0
   m_Name: OwlA (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1707bd2510d32489a38dadbd717c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
 --- !u!135 &520395185759886799
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -453,3 +453,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abff40a6aea964cb8881fbd59042dde9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  currentHealth: 0
