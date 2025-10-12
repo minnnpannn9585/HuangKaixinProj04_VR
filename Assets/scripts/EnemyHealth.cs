@@ -9,6 +9,8 @@ public class EnemyHealth : MonoBehaviour
 
     [HideInInspector]
     public int currentHealth;
+
+    public int score;
     
     // Start is called before the first frame update
     void Start()
@@ -24,7 +26,8 @@ public class EnemyHealth : MonoBehaviour
             //play vfx & sfx
             
             Destroy(gameObject);
-            
+            DestinationMana.instance.AddScore(score);
+
         }
     }
 

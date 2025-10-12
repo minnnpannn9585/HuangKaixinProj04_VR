@@ -756,7 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1707bd2510d32489a38dadbd717c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.7
+  speed: 0.6
 --- !u!135 &-2191812027812587303
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -792,6 +792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   currentHealth: 0
+  score: 40
 --- !u!1 &6864480768855328532
 GameObject:
   m_ObjectHideFlags: 0
