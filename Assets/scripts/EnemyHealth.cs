@@ -22,6 +22,7 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             //play vfx & sfx
+            
             Destroy(gameObject);
             
         }
@@ -31,12 +32,19 @@ public class EnemyHealth : MonoBehaviour
     {
         if (other.CompareTag("Rock"))
         {
+            Instantiate(Resources.Load("EnemyDeathVFX"), transform.position, Quaternion.identity);
             TakeDamage(1);
         }
 
         if (other.CompareTag("Arrow"))
         {
+            Instantiate(Resources.Load("ArrowHit01"), transform.position, Quaternion.identity);
             TakeDamage(2);
+        }
+        if(other.CompareTag("BigArrow"))
+        {
+            Instantiate(Resources.Load("ArrowHit02"), transform.position, Quaternion.identity);
+            TakeDamage(3);
         }
     }
 }

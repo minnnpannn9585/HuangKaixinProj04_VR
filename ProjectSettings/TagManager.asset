@@ -10,6 +10,7 @@ TagManager:
   - Arrow
   - Enemy
   - Environment
+  - BigArrow
   layers:
   - Default
   - TransparentFX
